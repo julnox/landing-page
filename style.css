@@ -101,7 +101,7 @@ button {
   justify-content: center;
 }
 
-.box {
+.container > img {
   height: 150px;
   width: 150px;
   border-style: solid;
