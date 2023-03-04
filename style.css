@@ -73,7 +73,7 @@ button {
   font-size: 18px;
 }
 
-.hero-image {
+.hero > img {
   display: flex;
   justify-content: center;
   align-items: center;
