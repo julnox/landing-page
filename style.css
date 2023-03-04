@@ -8,7 +8,7 @@ body {
 header,
 footer {
   display: flex;
-  height: 40px;
+  height: 60px;
   align-self: stretch;
   background-color: #1f2937;
 }
@@ -16,6 +16,12 @@ footer {
 header {
   justify-content: space-between;
   padding: 10px 100px;
+}
+
+footer {
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 ul {
@@ -30,7 +36,7 @@ a {
 
 .logo {
   border-radius: 50%;
-  width: 40px;
+  width: 60px;
 }
 
 .hero {
@@ -93,12 +99,12 @@ button {
 }
 
 .container {
-  margin-top:25px;
+  margin-top: 25px;
   display: flex;
   flex-wrap: wrap;
   width: 170px;
   justify-content: center;
-  gap:10px;
+  gap: 10px;
 }
 
 .container > img {
@@ -112,7 +118,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:50px;
+  gap: 50px;
   text-align: center;
 }
 
@@ -120,29 +126,30 @@ button {
   color: rgb(68, 68, 68);
 }
 
-.quote{
-  margin:100px 0;
+.quote {
+  margin: 100px 0;
   background-color: #e5e7eb;
   height: 350px;
-  color:#1f2937;
+  color: #1f2937;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0 10vw;
+  padding: 0 20vw;
+  gap: 10px;
 }
 
-.quote-text{
+.quote-text {
   font-size: 36px;
   font-weight: 400;
 }
 
-.quote-author{
-  font-size:24px;
+.quote-author {
+  font-size: 24px;
   font-weight: 800;
   align-self: flex-end;
 }
 
-.sign-up{
+.sign-up {
   background-color: #3882f6;
   border-radius: 8px;
   display: flex;
@@ -155,21 +162,21 @@ button {
   box-sizing: border-box;
 }
 
-.sign-up-text{
+.sign-up-text {
   color: white;
   display: flex;
   flex-direction: column;
   font-weight: 800;
-  font-size:20px;
+  font-size: 20px;
 }
 
-.sign-up-text > div{
+.sign-up-text > div {
   color: rgb(219, 219, 219);
   font-weight: 300;
-  font-size:16px;
+  font-size: 16px;
 }
 
-.sign-up > button{
+.sign-up > button {
   border: 2px white solid;
   height: fit-content;
   padding: 5px 20px;
