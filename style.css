@@ -2,4 +2,13 @@ body{
   font-family: 'Roboto', 'sans-serif';
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  margin:0;
+}
+header,
+footer{
+  display:flex;
+  height:50px;
+  align-self: stretch;
+  background-color: #1f2937;
 }
