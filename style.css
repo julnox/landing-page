@@ -58,11 +58,12 @@ a {
   font-weight: 800;
   color: #f9faf8;
 }
+
 button {
   background-color: #3882f6;
   border: none;
   border-radius: 5px;
-  padding: 5px 15px;
+  padding: 5px 25px;
   color: white;
   font-weight: 700;
 }
