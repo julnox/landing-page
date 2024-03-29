@@ -1,7 +1,7 @@
 
 # Landing Page
 
-A webpage made for The Odin Project
+This is an example of a webpage using Flexbox, this project is part of Odin Project.
 
 #### Image credits:
 
